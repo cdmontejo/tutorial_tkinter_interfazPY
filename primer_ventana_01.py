@@ -29,4 +29,5 @@ ventana.resizable(True, True)
 ventana.attributes("-alpha", 0.9)
 
 #metodo de bucle para que la ventana sea visible
+# tod lo que se escriba para la ventana ponganlo antes del ventana.mainloop() porque sino no suceredera en la ventana
 ventana.mainloop()
