@@ -54,6 +54,6 @@ def on_mouse_move(event):
 #<Motion> se utiliza para detectar el movimiento del mouse sobre un widget
 ventana.bind("<Motion>", on_mouse_move)
 
-#estos no se usa mucho dudo que lo usemos, porque son coordenadas
+#estos no se usa mucho, dudo que lo usemos, porque son coordenadas
 
 ventana.mainloop()

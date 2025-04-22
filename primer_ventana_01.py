@@ -28,6 +28,7 @@ ventana.resizable(True, True)
 #transaparencia de la ventana es alpha y a la par ala transparencia
 ventana.attributes("-alpha", 0.9)
 
+
 #metodo de bucle para que la ventana sea visible
 # tod lo que se escriba para la ventana ponganlo antes del ventana.mainloop() porque sino no suceredera en la ventana
 ventana.mainloop()

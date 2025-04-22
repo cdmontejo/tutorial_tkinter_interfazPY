@@ -15,5 +15,5 @@ for button in botones:
     button.pack()
     #aca nuestro evento del click izquierdo
     button.bind("<Button-1>", on_click)
-
+#
 ventana.mainloop()
