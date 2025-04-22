@@ -1,6 +1,7 @@
 import tkinter as tk
 
 ventana = tk.Tk()
+ventana.title("Ejemplo eventos")
 #vamos a definir una funcion onclick
 def on_click(event):
     #aca no vamos a entregar un evento aislado sino que nos sirve para traer el texto que esta asociado a cada widget

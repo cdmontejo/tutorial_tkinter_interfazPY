@@ -3,6 +3,7 @@
 import tkinter as tk
 
 ventana = tk.Tk()
+ventana.title("Ejemplo eventos")
 
 #por ejemplo uno de los eventos puede ser el dar click izquierdo
 
