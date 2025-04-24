@@ -1,4 +1,10 @@
+#el de aca es el llamado de la libreria aunque hay otro modo de hacerlo
 import tkinter as tk
+#aunque de este modo es menos confuso para ti como para python interpretarlo ya que para llamar cada cosa de parte de tkinter deberas poner
+#tk.Algo asi sabras bien de donde viene y si viene de tkinter, aparte no va a generar conflictos, tendras mejor legibilidad y se ve mejor
+
+#este seria el otro modo import tkinter as *, no se recomienda porque podrian haber conflictos ya que puede ser que no solo se trabaje esta libreria
+#es un poco menos claro
 
 #tk dependencia de tkinter y Tk() para mandar a llamar la clase de tkinter
 ventana = tk.Tk()
